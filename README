@@ -1,0 +1,19 @@
+Este es mi primer repositorio en GitHub
+
+Para configurar la terminal primero se requiere instalar git desde el siguiente enlace: 
+    https://git-scm.com/downloads/win
+
+Una vez instalado habrá que abrir el Visual Studio Code y correr la terminal desde la carpeta seleccionada
+
+Si sale un error de que no sabe quienes somos habrá que añadir esta linea al archivo config en la carpeta oculta de git
+    [user]
+    name = Bob Gilmore
+    email = me@mydomain.com
+
+Antes de hacer cualquier cambio se debe ejecutar desde la terminal el comando de 'git status', si marca que algunos archivos no están trackeados se deben agregar 
+Para agregar un archivo se ejecuta el comando 'git add .' para agregar todo lo que falta
+Se ejecuta nuevamente el comando 'git satus' el cual ya debería salir sin error
+Se ejecuta el comando 'git commit -m "aquí va el comentario"' para subir la información y se manda con 'git push'
+    En caso de que 'git push' marque error se deberá configurar la raíz, esta la dará la misma consola
+
+Disfruta (:
