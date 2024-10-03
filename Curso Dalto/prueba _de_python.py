@@ -1,0 +1,1 @@
+print('Haciendo la prueba de sincronización con Python ')
